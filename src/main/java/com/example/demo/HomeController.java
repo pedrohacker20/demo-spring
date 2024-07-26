@@ -14,4 +14,9 @@ public class HomeController {
     public String index(){
         return "hola a todos";
     }
+
+    @GetMapping("/mascotas")
+    public String mascotas(){
+        return "hola a todos";
+    }
 }
