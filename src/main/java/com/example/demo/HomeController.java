@@ -19,4 +19,9 @@ public class HomeController {
     public String mascotas(){
         return "hola a todos";
     }
+
+    @GetMapping("/productos")
+    public String productos(){
+        return "hola a todos";
+    }
 }
